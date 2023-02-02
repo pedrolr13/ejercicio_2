@@ -1,0 +1,17 @@
+package IVA;
+
+
+
+public class IVA {
+    public static void main(String[]args){
+        System.out.println(total(201.6,0.20));
+    }
+
+    static double total(double precio,double descuento){
+
+       return -(precio*descuento)+precio;
+
+    }
+
+
+}
